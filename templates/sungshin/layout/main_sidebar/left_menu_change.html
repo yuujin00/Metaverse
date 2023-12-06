@@ -1,0 +1,70 @@
+<!-- Sidebar Menu -->
+<nav class="mt-2">
+<ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+  <!-- Add icons to the links using the .nav-icon class
+       with font-awesome or any other icon font library -->
+  <li class="nav-item menu-open">
+    <a href="#" class="nav-link active">
+      <i class="nav-icon fas fa-home"></i>
+      <p>
+        HOME
+        <i class="right fas fa-angle-left"></i>
+      </p>
+    </a>
+    <ul class="nav nav-treeview">
+      <li class="nav-item">
+        <a href="{{ url_for('intro') }}" class="nav-link active">
+          <i class="far fa-circle nav-icon"></i>
+          <p>INTRO</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="{{ url_for('dashboard') }}" class="nav-link">
+          <i class="far fa-circle nav-icon"></i>
+          <p>DASHBOARD</p>
+        </a>
+      </li>
+    </ul>
+  </li>
+
+  <li class="nav-header">METAVERSE</li>
+  <li class="nav-item">
+    <a href="#" class="nav-link">
+      <i class="nav-icon fas fa-chart-pie"></i>
+      <p>
+        Metaverse Demo
+        <i class="right fas fa-angle-left"></i>
+      </p>
+    </a>
+    <ul class="nav nav-treeview">
+      <li class="nav-item">
+        <a href="{{ url_for('demo1') }}" class="nav-link">
+          <i class="far fa-circle nav-icon"></i>
+          <p>Metaverse Demo 1</p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="{{ url_for('demo2') }}" class="nav-link">
+          <i class="far fa-circle nav-icon"></i>
+          <p>Metaverse Demo 2 </p>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="{{ url_for('week6') }}" class="nav-link">
+          <i class="far fa-circle nav-icon"></i>
+          <p>Metaverse week6 </p>
+        </a>
+      </li>
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a href="{{ url_for('QNA') }}" class="nav-link">
+      <i class="nav-icon fas fa-th"></i>
+      <p>
+        Q&A BOARD
+        <span class="right badge badge-danger">New</span>
+      </p>
+    </a>
+  </li>
+</ul>
+</nav>

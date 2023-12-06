@@ -1,0 +1,21 @@
+.out_box_upgrade{
+    width: 50%;
+    margin-left: 25%;
+    padding: 50px;
+    background: #5c475c;
+    color: #f0f0f0;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: overline;
+    margin-top: 100px;
+}
+
+.inner_box_upgrade{
+    background: #6eff00;
+    color: #3e3333;
+    font-size: 15px;
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}

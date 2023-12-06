@@ -1,0 +1,15 @@
+{% extends 'layout_divided.html' %}
+{% block content %}
+<style>
+    canvas {
+        max-height:860px;
+    }
+</style>
+    <script src="{{ url_for('static', filename='js/week6_1.js') }}"></script>
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12" id="week6" style="background:#141414;overflow:hidden;">
+            </div>
+        </div>
+    </section>
+{% endblock %}

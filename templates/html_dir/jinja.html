@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body ">
+    <div style="font-weight:bold;background:#F00;color:#FFF;">
+        <div style="position:absolute; left:50%;">
+            <b>Jinja2 For Loop</b>
+            <ul>
+                {% for txt in textList %}
+                <li>{{ txt }}</li>
+                {% endfor %}
+            </ul>
+            <b>Jinja2 IF</b>
+            <ul>
+                {% if type == 'Image' %}
+                <li>{{ algorithmList[0] }}</li>
+                {% elif type == 'Language' %}
+                <li>{{ algorithmList[1] }}</li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

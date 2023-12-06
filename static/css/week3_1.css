@@ -1,0 +1,11 @@
+.out_box {
+    background:#F0F;
+    color:#f0f0f0;
+    font-size:12px;
+}
+
+.inner_box {
+    background:#0FF;
+    color:#fff;
+    font-size:15px;
+}
